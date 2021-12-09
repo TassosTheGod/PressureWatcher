@@ -12,16 +12,11 @@ TinyGsmClient client(modem);
 PubSubClient mqtt(client);
 
 
-
-
 int ledStatus = LOW;
 
 // variable for storing the pressuremeter value
 int pressureValue = 0;
 int psiValue =0;
-
-
-
 
 
 void setup() {
@@ -81,8 +76,6 @@ void ConnectToNetwork(){
 
 
     SerialMon.println(" OK");
-
-
 }
 
 void setupModem()
@@ -169,4 +162,3 @@ void readPressure()
   SerialMon.println(pressureValue);
   delay(500);
 }
-

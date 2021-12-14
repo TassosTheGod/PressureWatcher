@@ -41,6 +41,11 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+
+  delay(1000);
+  readPressure();
+  //do nothing else .... for
+
 }
 
 void ConnectToNetwork(){
@@ -156,9 +161,13 @@ boolean mqttConnect() {
 
 void readPressure()
 {
+  //we read the pressure of the analog pin
   pressureValue = analogRead(PressurePin);
+  //and map it 
   psiValue = map(pressureValue, 0, 4095, 0, MAXPsi);
   
-  SerialMon.println(pressureValue);
+  //it prints on the monitor the value of the pressure AND the value the microcontroller gets
+  Serial.println(" the analog read:" + pressureValue );
+  Serial.println(" and the value:" + psiValue);
   delay(500);
 }

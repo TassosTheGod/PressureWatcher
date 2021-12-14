@@ -31,10 +31,9 @@ Wiring connector: water sealed quick disconnect. Mating connector is included.
 Wiring: Red for +5V. Black for ground. Blue for signal output.
 
 *******
-
-[Voltage Dividers](https://learn.sparkfun.com/tutorials/voltage-dividers)
-[i want to map analog pins on 5volt between 0 to 1023 (10 bit resolution) - ESP32 Forum](https://www.esp32.com/viewtopic.php?t=5397)
-[ESP32 Analog Input with Arduino IDE | Random Nerd Tutorials](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/)
+|[Voltage Dividers](https://learn.sparkfun.com/tutorials/voltage-dividers) |
+[i want to map analog pins on 5volt between 0 to 1023 (10 bit resolution) - ESP32 Forum](https://www.esp32.com/viewtopic.php?t=5397)|
+[ESP32 Analog Input with Arduino IDE | Random Nerd Tutorials](https://randomnerdtutorials.com/esp32-adc-analog-read-arduino-ide/) |
 [ESP32 ADC Tutorial - Read Analog Voltage in Arduino – DeepBlue](https://deepbluembedded.com/esp32-adc-tutorial-read-analog-voltage-arduino/)
 
 *********
